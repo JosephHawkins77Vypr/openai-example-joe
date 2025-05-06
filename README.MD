@@ -1,4 +1,4 @@
-# OpenAI API Example Using Steers
+# OpenAI API Example
 
 Example AI API to create summaries for steers of different types.
 
@@ -27,11 +27,3 @@ Run the example scripts:
    ```bash
    npm start
    ```
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request to improve the Vypr AI codebase.
