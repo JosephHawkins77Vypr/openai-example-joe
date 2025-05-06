@@ -1,12 +1,10 @@
 import { z } from "zod";
 
-export const birthdaysSchema = z.array(
-  z.object({
-    name: z.string(),
-    birthday: z.string(),
-  })
-);
-
-export const birthdaySchemaWrapper = z.object({
-  birthdays: birthdaysSchema,
+export const steerResponseSchema = z.object({
+  data: z.array(
+    z.object({
+      summary: z.string(),
+      //   sentimentAnalysis: z.string(),
+    })
+  ),
 });
