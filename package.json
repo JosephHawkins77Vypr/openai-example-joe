@@ -1,0 +1,21 @@
+{
+  "name": "ai-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.15.12",
+    "openai": "^4.97.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "dotenv": "^16.5.0",
+    "typescript": "^5.8.3"
+  }
+}
